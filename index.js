@@ -1,7 +1,6 @@
 const path = require('path');
 const express = require('express')
 const sqlite3 = require('sqlite3').verbose();
-
 const mcache = require('memory-cache');
 const redis = require('redis');
 const flatCache = require('flat-cache');
